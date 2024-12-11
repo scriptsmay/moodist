@@ -1,6 +1,6 @@
 import { BiSolidTraffic } from 'react-icons/bi/index';
 import { FaCity, FaRoad } from 'react-icons/fa/index';
-import { PiRoadHorizonFill, PiSirenBold } from 'react-icons/pi/index';
+import { PiRoadHorizonFill } from 'react-icons/pi/index';
 import { BsSoundwave, BsPeopleFill } from 'react-icons/bs/index';
 import { RiSparkling2Fill } from 'react-icons/ri/index';
 
@@ -13,45 +13,45 @@ export const urban: Category = {
     {
       icon: <PiRoadHorizonFill />,
       id: 'highway',
-      label: 'Highway',
+      label: '铁路',
       src: '/sounds/urban/highway.mp3',
     },
     {
       icon: <FaRoad />,
       id: 'road',
-      label: 'Road',
+      label: '公路',
       src: '/sounds/urban/road.mp3',
     },
-    {
-      icon: <PiSirenBold />,
-      id: 'ambulance-siren',
-      label: 'Ambulance Siren',
-      src: '/sounds/urban/ambulance-siren.mp3',
-    },
+    // {
+    //   icon: <PiSirenBold />,
+    //   id: 'ambulance-siren',
+    //   label: '救护车',
+    //   src: '/sounds/urban/ambulance-siren.mp3',
+    // },
     {
       icon: <BsSoundwave />,
       id: 'busy-street',
-      label: 'Busy Street',
+      label: '繁忙街道',
       src: '/sounds/urban/busy-street.mp3',
     },
     {
       icon: <BsPeopleFill />,
       id: 'crowd',
-      label: 'Crowd',
+      label: '人群',
       src: '/sounds/urban/crowd.mp3',
     },
     {
       icon: <BiSolidTraffic />,
       id: 'traffic',
-      label: 'Traffic',
+      label: '交通',
       src: '/sounds/urban/traffic.mp3',
     },
     {
       icon: <RiSparkling2Fill />,
       id: 'fireworks',
-      label: 'Fireworks',
+      label: '烟花',
       src: '/sounds/urban/fireworks.mp3',
     },
   ],
-  title: 'Urban',
+  title: '城市',
 };

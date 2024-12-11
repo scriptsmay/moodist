@@ -123,7 +123,7 @@ export function Pomodoro({ onClose, open, show }: PomodoroProps) {
     <>
       <Modal show={show} onClose={onClose}>
         <header className={styles.header}>
-          <h2 className={styles.title}>Pomodoro Timer</h2>
+          <h2 className={styles.title}>番茄钟</h2>
 
           <div className={styles.button}>
             <Button

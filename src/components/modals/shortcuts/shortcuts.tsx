@@ -15,7 +15,7 @@ export function ShortcutsModal({ onClose, show }: ShortcutsModalProps) {
     },
     {
       keys: ['Shift', 'Alt', 'P'],
-      label: 'Presets',
+      label: '预设',
     },
     {
       keys: ['Shift', 'S'],
@@ -23,15 +23,15 @@ export function ShortcutsModal({ onClose, show }: ShortcutsModalProps) {
     },
     {
       keys: ['Shift', 'N'],
-      label: 'Notepad',
+      label: '记事本',
     },
     {
       keys: ['Shift', 'P'],
-      label: 'Pomodoro Timer',
+      label: '番茄钟',
     },
     {
       keys: ['Shift', 'B'],
-      label: 'Breathing Exercise',
+      label: '呼吸练习',
     },
     {
       keys: ['Shift', 'T'],

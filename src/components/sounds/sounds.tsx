@@ -65,6 +65,7 @@ export function Sounds({ functional, id, sounds }: SoundsProps) {
   };
 
   const variants = mix(fade(), scale(0.9));
+  const showSize = 9;
 
   return (
     <div>
@@ -74,8 +75,8 @@ export function Sounds({ functional, id, sounds }: SoundsProps) {
             key={sound.label}
             {...sound}
             functional={functional}
-            hidden={!showAll && index > 5}
-            ref={index === 6 ? firstNewSound : undefined}
+            hidden={!showAll && index > showSize - 1}
+            ref={index === showSize ? firstNewSound : undefined}
             selectHidden={selectHidden}
             unselectHidden={unselectHidden}
           />
@@ -87,7 +88,7 @@ export function Sounds({ functional, id, sounds }: SoundsProps) {
             .map((_, index) => <div key={index} />)}
       </div>
 
-      {sounds.length > 6 && (
+      {sounds.length > showSize && (
         <button
           ref={showMoreButton}
           className={cn(

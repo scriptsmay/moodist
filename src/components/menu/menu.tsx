@@ -11,7 +11,6 @@ import {
   NotepadItem,
   SourceItem,
   PomodoroItem,
-  CountdownTimerItem,
   PresetsItem,
   ShortcutsItem,
   SleepTimerItem,
@@ -117,7 +116,6 @@ export function Menu() {
                     />
                     <PomodoroItem open={() => open('pomodoro')} />
                     <NotepadItem open={() => open('notepad')} />
-                    <CountdownTimerItem />
 
                     <Divider />
                     <ShortcutsItem open={() => open('shortcuts')} />

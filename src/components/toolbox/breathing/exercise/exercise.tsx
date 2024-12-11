@@ -41,11 +41,11 @@ export function Exercise() {
   const getLabel = (phase: Phase) => {
     switch (phase) {
       case 'inhale':
-        return 'Inhale';
+        return '吸气';
       case 'exhale':
-        return 'Exhale';
+        return '呼气';
       default:
-        return 'Hold';
+        return '屏住呼吸';
     }
   };
 

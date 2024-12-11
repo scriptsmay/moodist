@@ -6,7 +6,7 @@ import { places } from './sounds/places';
 import { transport } from './sounds/transport';
 import { things } from './sounds/things';
 import { noise } from './sounds/noise';
-import { binaural } from './sounds/binaural';
+// import { binaural } from './sounds/binaural';
 
 import type { Categories } from './types';
 
@@ -22,6 +22,6 @@ export const sounds: {
     transport,
     things,
     noise,
-    binaural,
+    // binaural,
   ],
 };
